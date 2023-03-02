@@ -33,7 +33,6 @@ function playRound(playerSelection, computerSelection) {
     result_line.innerText = `You Win! ${playerSelection} beats ${computerSelection}`;
     countWin++;
     player_score.innerText = countWin;
-    xcxx
     console.log(playerSelection, computerSelection);
   } else if ((playerSelection.toLowerCase() === 'scissor' && computerSelection.toLowerCase() === 'rock')
         || (playerSelection.toLowerCase() === 'rock' && computerSelection.toLowerCase() === 'paper')
@@ -63,7 +62,7 @@ function result() {
       location.reload();
     });
   } else if (countLoss == 5 && countWin < 5) {
-    result_line.innerText = 'You Lost! Humanity now has no hope.';
+    result_line.innerText = 'You Lost! Time to find the new ONE';
 
     buttons.forEach((button) => {
       button.removeEventListener('click', getPlayerChoice);
