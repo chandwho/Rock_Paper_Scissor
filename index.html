@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+
+
+<body>
+    <div class="header">
+        <h1>ROCK PAPER SCISSOR</h1>
+    </div>
+
+    <div class="container">
+        <div class="message">
+                <h2>Hello Neo!</h2>
+                <p>Win the game to prove that you are worthy to enter the REAL world.</p>
+                <h3>Make a Choice</h3>
+            
+
+            <div id="button-container">
+                <button>
+                    <i id="rock" class="fa-regular fa-hand-back-fist"></i>
+                </button>
+                <button>
+                    <i id="paper" class="fa-regular fa-hand"></i>
+                </button>
+                <button>
+                    <i id="scissor" class="fa-regular fa-hand-scissors"></i>
+                </button>
+            </div>
+        </div>
+        
+          
+        <div class="score">
+            <div id="player">
+                <h3>NEO</h3>
+                <p id="player-score">0</p>
+            </div>
+            <div id="machine">
+                <h3>MACHINE</h3>
+                <p id="machine-score">0</p>
+            </div>
+        </div>
+        
+        <div class="result" >Result
+        <p id="result-line"></p>
+        </div>    
+    </div>
+
+    <div class="replay">
+        <button  class="replay-button">Play Again?</button>
+    </div>
+    
+    <div class="footer">
+        <a href="https://github.com/chandwho">Copyright @ Morpheus Technologies
+        </a>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
