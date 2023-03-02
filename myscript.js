@@ -33,6 +33,7 @@ function playRound(playerSelection, computerSelection) {
     result_line.innerText = `You Win! ${playerSelection} beats ${computerSelection}`;
     countWin++;
     player_score.innerText = countWin;
+    xcxx
     console.log(playerSelection, computerSelection);
   } else if ((playerSelection.toLowerCase() === 'scissor' && computerSelection.toLowerCase() === 'rock')
         || (playerSelection.toLowerCase() === 'rock' && computerSelection.toLowerCase() === 'paper')
