@@ -1,0 +1,135 @@
+@font-face {
+    font-family: matrix;
+    src: url(/matrix-font/Matrix-MZ4P.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+}
+
+body{
+    color: white;
+    background: url("/Images/matrix.jpg") no-repeat center/ cover;
+    text-align: center;
+    font-family: matrix,  sans-serif;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.13);
+    font-size: 2rem;
+}
+
+.container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    font-size: 2rem;
+    margin-top: 20px;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue; 
+}
+
+.message{
+    color: white; 
+}
+.message h2, .message h3{
+    margin-bottom: 30px;
+}
+
+.message p{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+#button-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#button-container button{
+    color: white;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    /*border: solid white 10px;
+    border-radius: 50%;*/
+    font-size: 2rem;
+    border-style: none;
+}
+
+button .fa-regular:hover{
+    color: red;
+    font-size: 8rem;
+}
+
+button .fa-regular{
+   font-size: 6rem;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 20px;
+}
+ 
+.score p{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.result{
+    height: 110px;
+}
+#result-line{
+    padding: 10px;
+}
+
+.replay{
+    margin: 20px 0px;
+    height: 60px;
+}
+
+.replay .replay-button{
+    color: white;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: solid white 5px;
+    border-radius: 10px;
+}
+
+.focus{
+    color: white;
+    background: transparent;
+    width: 100px;
+    height: 50px;
+    border: solid white 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.596);
+}
+
+.focus:hover{
+    width: 120px;
+    height: 60px;
+    font-size: 1rem;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer >a{
+    text-decoration: none;
+    color: #fff;
+}
